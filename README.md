@@ -1,24 +1,25 @@
 # Handwritten-Digits-Recognizer
-The objective of this project is to build a image-classifier using Neural Networks to accurately categorize the handwritten digits. It also has a gui made using tkinter and OpenCV where a user can draw a digit and choose a model to predict what the number is.
+The objective of this project is to build an image-classifier using Neural Networks to accurately categorize the handwritten digits. It also has a gui made using tkinter and OpenCV where a user can draw a digit and choose a model to predict what the number is.
 Network Architecture
-We used three types of neural networks, to build the models and evaluate them to compare their performance.
-Thees are:-
+I used three types of neural networks, to build the models and evaluate them to compare their performance.
+These are:-
 1. ANN (Artificial Neural Network)
 2. CNN (Convolutional Neural Network).
 3. VGG-16 (Deep Neural Network)
 
 Training, Validation And Test Sets
-For the purposes of this experiment the dataset was split into 3 categories.
+For the purpose of this experiment the dataset was split into 3 categories.
 1. 48,000 Training Sets
 2. 12,000 Validation Sets
 3. 10,000 Test Sets
+
 Environment Setup
-We recommend using Anaconda for running the script.
+I recommend using Anaconda for running the script.
 
 Run the following command on conda prompt to create a new environment with all the required packages.
 conda env create -f mnist_env_packages.yml
 
-The mnist-env.yml file can be found in the repo, which contains details of all the required packages to run the script.
+The mnist_env_packages.yml file can be found in the repo, which contains details of all the required packages to run the script.
 
 Input Dimension
 Each image is 28x28 pixels with 1 channel.
